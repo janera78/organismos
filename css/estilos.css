@@ -1,0 +1,141 @@
+/*esto es header*/
+
+header {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
+/*logo SVG*/
+.logo {
+  display: flex;
+}
+/*NAV*/
+.menuPrincipal {
+  width: 25%;
+  display: flex;
+  justify-content: space-between;
+}
+.menuPrincipal__inicio {
+}
+.menuPrincipal__servicios {
+}
+.menuPrincipal__galeria {
+}
+.menuPrincipal__contactar {
+}
+
+/*esto es zigzag*/
+.zonaSuperior {
+  display: flex;
+ 
+  flex-direction: row;
+}
+.zonaSuperior__foto1 {
+  width: 50%;
+}
+.zonaSuperior__foto1__texto {
+  display: flex;
+  color: black;
+  width: 50%;
+}
+.zonaInferior__foto2__texto {
+  display: flex;
+  color: black;
+}
+
+@font-face{
+    font-family: "roboto";
+    src:  url(./fonts/roboto-regular.woff2) format("woff2"),
+          url(./fonts/roboto-regular.woff) format("woff");
+}
+/*soluciona problemas con paddings*/
+*{
+    box-sizing: border-box;
+}
+html{
+  font-family: "roboto", sans-serif;
+  font-size: 16px;
+  color: white;
+}
+
+/*FOOTER*/
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+footer {
+    background-color: #2385e0;
+    font-size: 18px;
+    padding: 20px;
+
+}
+.links{
+    display: flex;
+    
+
+}
+h5, h6{
+    font-size: 18px;
+}
+h5, ul{
+    margin-top: 0;
+}
+h6{
+    margin-bottom: 0ex;
+}
+/*Redes*/
+  .redes {
+      flex-grow: 0.2;
+  }
+  .redes_titulo {
+      font-family: "roboto", sans-serif;
+      font-weight: bold;
+    
+  }
+  .redes__twitter {
+  }
+  .redes__pinterest {
+  }
+  .redes__facebook {
+  }
+  /*acerca*/
+  .acerca {
+      flex-grow: 2;
+  }
+  .acerca__titulo {
+      font-family: "roboto", sans-serif;
+      font-weight: bold;
+  }
+  .acerca__garantia {
+  }
+  .acerca__inversores {
+  }
+  .acerca__historia {
+  }
+  /*terminos*/
+  .terminos {
+    flex-grow: 1;
+  }
+  .terminos__titulo {
+    font-family: "roboto", sans-serif;
+    font-weight: bold;
+  }
+  .terminos__cookies {
+  }
+  .terminos__politica {
+  }
+  .terminos__uso {
+  }
+  .terminos__legal {
+  }
+  /*copyright*/
+  .copyright{
+      text-align: center;
+      display: flex;
+  }
+

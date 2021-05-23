@@ -1,0 +1,18 @@
+/*esto es index*/
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+nav{
+    width: 50vw;
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    font-size: 25px;
+    text-decoration: none;
+    color: red;
+    font-family: sans-serif;
+}
